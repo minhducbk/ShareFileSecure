@@ -111,8 +111,8 @@ public class ReceiveFile implements Runnable{
 
 	      }
 	      finally {
-	        if (fos != null) fos.close();
-	        if (bos != null) bos.close();
+//	        if (fos != null) fos.close();
+//	        if (bos != null) bos.close();
 //		    sock.close();
 	        this.kill();
 	      }

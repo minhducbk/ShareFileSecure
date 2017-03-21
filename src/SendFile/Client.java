@@ -77,18 +77,5 @@ public class Client {
 	public void init_connection()
 	{
 		
-	}
-	
-	public void stop(){
-		try {
-			if (isServer)
-				thread_server.stop();
-			else
-				sock_file.close();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-	}
-	
+	}	
 }

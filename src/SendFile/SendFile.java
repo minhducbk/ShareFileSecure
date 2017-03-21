@@ -50,15 +50,6 @@ public class SendFile  extends Thread{
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-//	 		 finally {
-//				try {
-//					if (sock != null)
-//						sock.close();
-//				} catch (IOException e) {
-//					// TODO Auto-generated catch block
-//					e.printStackTrace();
-//				}
-//			}
 		}
 	}
 	
@@ -94,10 +85,10 @@ public class SendFile  extends Thread{
 			e.printStackTrace();
 		 }
 		 finally{
-			 if (os != null)
-				 os.close();
-			 if (bis != null)
-				 bis.close();
+//			 if (os != null)
+//				 os.close();
+//			 if (bis != null)
+//				 bis.close();
 //			 sock.close();
 			 this.kill();
 		 }
